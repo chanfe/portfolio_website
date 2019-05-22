@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import './Portfolio.scss';
 import { Container, Responsive } from 'semantic-ui-react'
-import Me from '../components/Me'
-import Project from '../components/Project_Squares'
 import typing from '../assets/typing.gif'
 
 class MainPage extends Component {
