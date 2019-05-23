@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container } from 'semantic-ui-react'
 import './all.scss'
 
-class Me extends Component {
+class About extends Component {
 
   render(){
     return (
@@ -19,4 +19,4 @@ class Me extends Component {
   }
 }
 
-export default Me
+export default About
