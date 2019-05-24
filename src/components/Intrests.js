@@ -8,6 +8,7 @@ class Intrests extends Component {
     return (
       <Container textAlign='center'>
         <h2 className="novaStyle">
+        a foodie, game enthusiast, riddles, 
         </h2>
       </Container>
     )

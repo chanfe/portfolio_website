@@ -2,17 +2,16 @@ import React, { Component } from 'react';
 import { Container } from 'semantic-ui-react'
 import './all.scss'
 
-class Skill extends Component {
+class Awards extends Component {
 
   render(){
     return (
       <Container textAlign='center'>
         <h2 className="novaStyle">
-        some skills
         </h2>
       </Container>
     )
   }
 }
 
-export default Skill
+export default Awards

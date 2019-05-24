@@ -3,6 +3,15 @@ import { connect } from 'react-redux'
 import './Portfolio.scss';
 import { Container, Responsive } from 'semantic-ui-react'
 import typing from '../assets/typing.gif'
+import About from '../components/About'
+import Education from '../components/Education'
+import Experience from '../components/Experience'
+import Skill from '../components/Skill'
+import Intrests from '../components/Intrests'
+import Contact from '../components/Contact'
+import Awards from '../components/Awards'
+
+
 
 class MainPage extends Component {
   constructor(props){
@@ -26,25 +35,25 @@ class MainPage extends Component {
 
       <div className="grayStyle">
         <Container textAlign='center'>
-          {/* <About /> */}
+          <About />
         </Container>
       </div>
 
       <Container textAlign='center'>
-        {/* <Education /> */}
+        <Education />
       </Container>
 
       <div className="grayStyle">
-        {/* <Skills /> */}
+        <Skill />
       </div>
 
       <Container textAlign='center'>
-        {/* <Intrests /> */}
+        <Intrests />
       </Container>
 
-      <div className="grayStyle">
+      <div className="darkdarkgrayStyle">
         <Container textAlign='center'>
-          {/* <Contact /> */}
+          <Contact />
         </Container>
       </div>
 
