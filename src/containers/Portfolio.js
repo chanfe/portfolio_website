@@ -10,6 +10,8 @@ import Skill from '../components/Skill'
 import Intrests from '../components/Intrests'
 import Contact from '../components/Contact'
 import Awards from '../components/Awards'
+import Footer from './Footer'
+import NavBar from './NavBar'
 
 
 
