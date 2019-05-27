@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import NavBar from './containers/NavBar';
+import Footer from './containers/Footer';
 import Portfolio from './containers/Portfolio';
+
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const darkgrayStyle = {
@@ -10,20 +13,29 @@ const darkgrayStyle = {
 };
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.myRef = React.createRef()   // Create a ref object 
+  }
+  
+  scrollToMyRef = () => window.scrollTo(0, this.myRef.current.offsetTop)
 
   render() {
     return (
       <Router>
         <React.Fragment>
-          {/* <div style={darkgrayStyle}>
+        <div ref={this.myRef}></div>
+          <div style={darkgrayStyle}>
             <NavBar />
-          </div> */}
-
+          </div>
+          
           <Switch>
             <Route path="/" render={(props) => <Portfolio />} />
           </Switch>
 
-          {/* <Footer /> */}
+          <div onClick={this.scrollToMyRef}> >
+            <Footer />
+          </div> 
         </React.Fragment>
       </Router>
     );

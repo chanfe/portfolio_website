@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import './Portfolio.scss';
 import { Container, Responsive } from 'semantic-ui-react'
+import ScrollingWrapper from './ScrollingWrapper.js'
+
 import typing from '../assets/typing.gif'
 import About from '../components/About'
 import Education from '../components/Education'
