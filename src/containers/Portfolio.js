@@ -15,18 +15,31 @@ import Awards from '../components/Awards'
 import Footer from './Footer'
 import NavBar from './NavBar'
 
+const darkgrayStyle = {
+  background:"#262626",
+  color:"white",
+};
 
 
 class MainPage extends Component {
+  
   constructor(props){
     super(props)
+    this.myRef = React.createRef()   // Create a ref object 
     this.state ={
     }
   }
 
+  scrollToMyRef = () => window.scrollTo(0, this.myRef.current.offsetTop)
+
   render(){
     return (
     <div >
+      <div ref={this.myRef}></div>
+
+      <div style={darkgrayStyle}>
+        <NavBar />
+      </div>
       <div className="container">
         <img src={typing} className="image" alt=""/>
         <div className="overlay">
@@ -60,6 +73,10 @@ class MainPage extends Component {
           <Contact />
         </Container>
       </div>
+
+      <div onClick={this.scrollToMyRef}> >
+        <Footer />
+      </div> 
 
     </div>
     )
