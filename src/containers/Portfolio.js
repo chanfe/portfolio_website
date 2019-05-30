@@ -25,21 +25,27 @@ class MainPage extends Component {
   
   constructor(props){
     super(props)
-    this.myRef = React.createRef()   // Create a ref object 
+    this.about = React.createRef() 
+    this.edu = React.createRef() 
+    this.intrests = React.createRef() 
+    this.skill = React.createRef() 
+    this.contact = React.createRef() 
+    this.top = React.createRef()   // Create a ref object 
     this.state ={
     }
   }
 
-  scrollToMyRef = () => window.scrollTo(0, this.myRef.current.offsetTop)
+  scrollToMyRef = (e) => window.scrollTo(0, this.e.current.offsetTop)
 
   render(){
     return (
     <div >
-      <div ref={this.myRef}></div>
+      <div ref={this.top}></div>
 
       <div style={darkgrayStyle}>
         <NavBar />
       </div>
+
       <div className="container">
         <img src={typing} className="image" alt=""/>
         <div className="overlay">
@@ -50,31 +56,35 @@ class MainPage extends Component {
         </div>
       </div>
 
-      <div className="grayStyle">
+      <div className="grayStyle" ref={this.about}>
         <Container textAlign='center'>
           <About />
         </Container>
       </div>
 
-      <Container textAlign='center'>
-        <Education />
-      </Container>
+      <div ref={this.edu}>
+        <Container textAlign='center'>
+          <Education />
+        </Container>
+      </div>
 
-      <div className="grayStyle">
+      <div className="grayStyle" ref={this.skill}>
         <Skill />
       </div>
 
-      <Container textAlign='center'>
-        <Intrests />
-      </Container>
+      <div ref={this.intrests}>
+        <Container textAlign='center'>
+          <Intrests />
+        </Container>
+      </div>
 
-      <div className="darkdarkgrayStyle">
+      <div className="darkdarkgrayStyle" ref={this.contact}>
         <Container textAlign='center'>
           <Contact />
         </Container>
       </div>
 
-      <div onClick={this.scrollToMyRef}> >
+      <div onClick={this.scrollToMyRef(this.top)}> >
         <Footer />
       </div> 
 
