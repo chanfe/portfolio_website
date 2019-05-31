@@ -38,10 +38,26 @@ class NavBar extends Component {
           <Segment inverted >
             <Menu inverted pointing secondary>
               <Menu.Menu position='left'>
-                  <Menu.Item
-                    name='education'
-                    onClick={this.handleItemClick}
-                  />
+                <Menu.Item
+                name='about'
+                onClick={this.props.scrollToAbout}
+                />
+                <Menu.Item
+                name='education'
+                onClick={this.props.scrollToEdu}
+                />
+                <Menu.Item
+                name='skill'
+                onClick={this.props.scrollToSkill}
+                />
+                <Menu.Item
+                name='intrest'
+                onClick={this.props.scrollToIntrests}
+                />
+                <Menu.Item
+                name='contact'
+                onClick={this.props.scrollToContact}
+                />
               </Menu.Menu>
             </Menu>
           </Segment>

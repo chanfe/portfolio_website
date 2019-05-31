@@ -35,7 +35,13 @@ class MainPage extends Component {
     }
   }
 
-  scrollToMyRef = (e) => window.scrollTo(0, this.e.current.offsetTop)
+  scrollToTop = () => window.scrollTo(0, this.top.current.offsetTop)
+  scrollToEdu = () => window.scrollTo(0, this.edu.current.offsetTop)
+  scrollToAbout = () => window.scrollTo(0, this.about.current.offsetTop)
+  scrollToIntrests = () => window.scrollTo(0, this.intrests.current.offsetTop)
+  scrollToSkill = () => window.scrollTo(0, this.skill.current.offsetTop)
+  scrollToContact = () => window.scrollTo(0, this.contact.current.offsetTop)
+
 
   render(){
     return (
@@ -43,7 +49,7 @@ class MainPage extends Component {
       <div ref={this.top}></div>
 
       <div style={darkgrayStyle}>
-        <NavBar />
+        <NavBar scrollToEdu={this.scrollToEdu} scrollToAbout={this.scrollToAbout} scrollToSkill={this.scrollToSkill} scrollToIntrests={this.scrollToIntrests} scrollToContact={this.scrollToContact}/>
       </div>
 
       <div className="container">
@@ -84,7 +90,7 @@ class MainPage extends Component {
         </Container>
       </div>
 
-      <div onClick={this.scrollToMyRef(this.top)}> >
+      <div onClick={this.scrollToTop}> >
         <Footer />
       </div> 
 
