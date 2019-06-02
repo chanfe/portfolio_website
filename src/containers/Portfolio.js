@@ -47,6 +47,7 @@ class MainPage extends Component {
     return (
     <div >
       <div ref={this.top}></div>
+      <a href='../assets/Felix_Chan_Software_Engineer.pdf' download>Click to download</a>
 
       <div style={darkgrayStyle}>
         <NavBar scrollToEdu={this.scrollToEdu} scrollToAbout={this.scrollToAbout} scrollToSkill={this.scrollToSkill} scrollToIntrests={this.scrollToIntrests} scrollToContact={this.scrollToContact}/>
