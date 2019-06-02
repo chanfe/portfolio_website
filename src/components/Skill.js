@@ -7,6 +7,8 @@ class Skill extends Component {
   render(){
     return (
       <Container textAlign='center'>
+        <h1>Skills & Languages</h1>
+        <h2>WHAT I BRING TO THE TABLE</h2>
         <h2 className="novaStyle">
         some skills
         </h2>
@@ -29,7 +31,7 @@ class Skill extends Component {
         <br />
         <br />
         <br />
-        <br />
+        <h4>English</h4>
       </Container>
     )
   }

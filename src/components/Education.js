@@ -7,15 +7,16 @@ class Education extends Component {
   render(){
     return (
       <Container textAlign='center'>
+        <h1>Education</h1>
+        <h2>What I have learned</h2>
         <h2 className="novaStyle">
-        Graduate  	Aug 2018 – Nov 2018
-Flatiron School - Access Lab - Brooklyn, NY
-Full Stack Web Developer learning and creating projects using JavaScript with Reactjs and Redux frontend and Ruby on Rails backend as well as a bit in SQL.
+            Graduate  	Aug 2018 – Nov 2018
+            Flatiron School - Access Lab - Brooklyn, NY
 
         </h2>
         <h2>
-        Bachelor of Science in Computer Science, 	      Aug 2012 - May 2016
-Appalachian State University - Boone, NC
+            Bachelor of Science in Computer Science, 	      Aug 2012 - May 2016
+            Appalachian State University - Boone, NC
 
         </h2>
       </Container>

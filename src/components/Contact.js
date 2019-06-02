@@ -22,7 +22,7 @@ class Contact extends Component {
             <a href="#"><Icon name='google plus' size='big' inverted color='black' className="icon"/></a>
             <a href="https://github.com/chanfe"><Icon name='github' size='big' inverted color='black' className="icon"/></a>
             <a href="#"><Icon name='youtube' size='big' inverted color='black' className="icon"/></a>
-            <a href="#"><Icon name='mail' size='big' inverted color='black' className="icon"/></a>
+            <a href="mailto:felixchan29@gmail.com"><Icon name='mail' size='big' inverted color='black' className="icon"/></a>
         </Container>
       </Container>
     )

@@ -7,12 +7,13 @@ class About extends Component {
   render(){
     return (
       <Container textAlign='center'>
+        <h1>About Me</h1>
+        <h2>My Background</h2>
         <h2 className="novaStyle">
-          Hi my name is Felix Chan and I am a Full Stack Developer.  
-          As a Full Stack I design and build stunning web applications that align with modern and minimalist patterns.  
-          All products are built to be mobile responsive with the latest technologies that have the best chance to stand the test of time.  
+          I have a computer science degree with about 2 years of experiance working as a software developer.  
+          With passion I like to design and build stunning web applications that align with modern and minimalist patterns.
           My goal is to create something special for each project.  
-          I’m excited to take my diverse skill set, and work with a creative group of people toward a common goal.
+          I like to become a full stack web developer where I can contribute by build features and applications with a collaberative team.
         </h2>
       </Container>
     )

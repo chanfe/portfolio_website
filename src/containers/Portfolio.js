@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import './Portfolio.scss';
-import { Container, Responsive } from 'semantic-ui-react'
+import { Container, Responsive, Grid, Segment } from 'semantic-ui-react'
 import ScrollingWrapper from './ScrollingWrapper.js'
 
 import typing from '../assets/typing.gif'
@@ -42,12 +42,12 @@ class MainPage extends Component {
   scrollToSkill = () => window.scrollTo(0, this.skill.current.offsetTop)
   scrollToContact = () => window.scrollTo(0, this.contact.current.offsetTop)
 
-
+  // href="/chanfe/portfolio_website/raw/master/src/assets/Felix_Chan_Software_Engineer.pdf"
   render(){
     return (
     <div >
       <div ref={this.top}></div>
-      <a href='../assets/Felix_Chan_Software_Engineer.pdf' download>Click to download</a>
+      <a href='https://github.com/chanfe/portfolio_website/raw/master/src/assets/Felix_Chan_Software_Engineer.pdf' download>Click to download</a>
 
       <div style={darkgrayStyle}>
         <NavBar scrollToEdu={this.scrollToEdu} scrollToAbout={this.scrollToAbout} scrollToSkill={this.scrollToSkill} scrollToIntrests={this.scrollToIntrests} scrollToContact={this.scrollToContact}/>
@@ -70,9 +70,29 @@ class MainPage extends Component {
       </div>
 
       <div ref={this.edu}>
-        <Container textAlign='center'>
-          <Education />
-        </Container>
+        <Segment.Group>
+          <Responsive {...Responsive.onlyMobile}>
+            <Container textAlign='center'>
+              <Education />
+            </Container>
+            <Container textAlign='center'>
+              <Experience />
+            </Container>
+          </Responsive>
+          
+          <Responsive minWidth={Responsive.onlyTablet.minWidth}>
+            <Grid divided='vertically'>
+              <Grid.Row columns={2}>
+                <Grid.Column>
+                  <Education /> 
+                </Grid.Column>
+                <Grid.Column>
+                  <Experience />
+                </Grid.Column>
+              </Grid.Row>
+            </Grid>
+          </Responsive>
+        </Segment.Group>
       </div>
 
       <div className="grayStyle" ref={this.skill}>
@@ -80,9 +100,29 @@ class MainPage extends Component {
       </div>
 
       <div ref={this.intrests}>
-        <Container textAlign='center'>
-          <Intrests />
-        </Container>
+        <Segment.Group>
+          <Responsive {...Responsive.onlyMobile}>
+            <Container textAlign='center'>
+              <Awards />
+            </Container>
+            <Container textAlign='center'>
+              <Intrests />
+            </Container>
+          </Responsive>
+          
+          <Responsive minWidth={Responsive.onlyTablet.minWidth}>
+            <Grid divided='vertically'>
+              <Grid.Row columns={2}>
+                <Grid.Column>
+                  <Awards /> 
+                </Grid.Column>
+                <Grid.Column>
+                  <Intrests />
+                </Grid.Column>
+              </Grid.Row>
+            </Grid>
+          </Responsive>
+        </Segment.Group>
       </div>
 
       <div className="darkdarkgrayStyle" ref={this.contact}>
