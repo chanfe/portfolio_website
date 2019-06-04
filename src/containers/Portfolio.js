@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import './Portfolio.scss';
-import { Container, Responsive, Grid, Segment } from 'semantic-ui-react'
+import { Container, Responsive, Grid, Segment, Transition} from 'semantic-ui-react'
 import ScrollingWrapper from './ScrollingWrapper.js'
 
 import typing from '../assets/typing.gif'
@@ -25,15 +25,19 @@ class MainPage extends Component {
   
   constructor(props){
     super(props)
-    this.about = React.createRef() 
+    this.about = React.createRef() // Create a ref object 
     this.edu = React.createRef() 
     this.intrests = React.createRef() 
     this.skill = React.createRef() 
     this.contact = React.createRef() 
-    this.top = React.createRef()   // Create a ref object 
-    this.state ={
+    this.top = React.createRef()  
+    this.work = React.createRef()  
+    this.awards = React.createRef() 
+    this.state = {
+        show: false,
     }
   }
+
 
   scrollToTop = () => window.scrollTo(0, this.top.current.offsetTop)
   scrollToEdu = () => window.scrollTo(0, this.edu.current.offsetTop)
@@ -41,16 +45,18 @@ class MainPage extends Component {
   scrollToIntrests = () => window.scrollTo(0, this.intrests.current.offsetTop)
   scrollToSkill = () => window.scrollTo(0, this.skill.current.offsetTop)
   scrollToContact = () => window.scrollTo(0, this.contact.current.offsetTop)
+  scrollToWork = () => window.scrollTo(0, this.work.current.offsetTop)
+  scrollToAwards = () => window.scrollTo(0, this.awards.current.offsetTop)
 
   // href="/chanfe/portfolio_website/raw/master/src/assets/Felix_Chan_Software_Engineer.pdf"
   render(){
     return (
     <div >
       <div ref={this.top}></div>
-      <a href='https://github.com/chanfe/portfolio_website/raw/master/src/assets/Felix_Chan_Software_Engineer.pdf' download>Click to download</a>
+      {/* <a href='https://github.com/chanfe/portfolio_website/raw/master/src/assets/Felix_Chan_Software_Engineer.pdf' download>Click to download</a> */}
 
       <div style={darkgrayStyle}>
-        <NavBar scrollToEdu={this.scrollToEdu} scrollToAbout={this.scrollToAbout} scrollToSkill={this.scrollToSkill} scrollToIntrests={this.scrollToIntrests} scrollToContact={this.scrollToContact}/>
+        <NavBar scrollToEdu={this.scrollToEdu} scrollToAbout={this.scrollToAbout} scrollToSkill={this.scrollToSkill} scrollToIntrests={this.scrollToIntrests} scrollToContact={this.scrollToContact} scrollToWork={this.scrollToWork} scrollToAwards={this.scrollToAwards} />
       </div>
 
       <div className="container">
@@ -63,72 +69,33 @@ class MainPage extends Component {
         </div>
       </div>
 
+      
       <div className="grayStyle" ref={this.about}>
-        <Container textAlign='center'>
           <About />
-        </Container>
       </div>
 
       <div ref={this.edu}>
-        <Segment.Group>
-          <Responsive {...Responsive.onlyMobile}>
-            <Container textAlign='center'>
-              <Education />
-            </Container>
-            <Container textAlign='center'>
-              <Experience />
-            </Container>
-          </Responsive>
-          
-          <Responsive minWidth={Responsive.onlyTablet.minWidth}>
-            <Grid divided='vertically'>
-              <Grid.Row columns={2}>
-                <Grid.Column>
-                  <Education /> 
-                </Grid.Column>
-                <Grid.Column>
-                  <Experience />
-                </Grid.Column>
-              </Grid.Row>
-            </Grid>
-          </Responsive>
-        </Segment.Group>
+        <Education /> 
       </div>
 
+      <div ref={this.work}>
+        <Experience />
+      </div>
+        
       <div className="grayStyle" ref={this.skill}>
         <Skill />
       </div>
 
+      <div ref={this.awards}>
+        <Awards />
+      </div>
+
       <div ref={this.intrests}>
-        <Segment.Group>
-          <Responsive {...Responsive.onlyMobile}>
-            <Container textAlign='center'>
-              <Awards />
-            </Container>
-            <Container textAlign='center'>
-              <Intrests />
-            </Container>
-          </Responsive>
-          
-          <Responsive minWidth={Responsive.onlyTablet.minWidth}>
-            <Grid divided='vertically'>
-              <Grid.Row columns={2}>
-                <Grid.Column>
-                  <Awards /> 
-                </Grid.Column>
-                <Grid.Column>
-                  <Intrests />
-                </Grid.Column>
-              </Grid.Row>
-            </Grid>
-          </Responsive>
-        </Segment.Group>
+        <Intrests />
       </div>
 
       <div className="darkdarkgrayStyle" ref={this.contact}>
-        <Container textAlign='center'>
-          <Contact />
-        </Container>
+        <Contact />
       </div>
 
       <div onClick={this.scrollToTop}> >

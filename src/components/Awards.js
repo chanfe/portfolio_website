@@ -1,17 +1,36 @@
 import React, { Component } from 'react';
-import { Container } from 'semantic-ui-react'
+import { Container, Responsive, Grid } from 'semantic-ui-react'
 import './all.scss'
 
 class Awards extends Component {
 
   render(){
     return (
-      <Container textAlign='center'>
-        <h1>Awards</h1>
-        <h2>Where I shine</h2>
-        <h2 className="novaStyle">
+      <Container textAlign='left'>
+        <Responsive {...Responsive.onlyMobile}>
+          <h1>Awards</h1>
+          <h2>Where I shine</h2>
+          <p>
             One of the best defending code in Flatiron Hackathon
-        </h2>
+          </p>
+        </Responsive>
+        
+        <Responsive minWidth={Responsive.onlyTablet.minWidth}>
+          <Grid>
+            <Grid.Row>
+              <Grid.Column width={5}>
+                <h1>Awards</h1>
+              </Grid.Column>
+              <Grid.Column width={11}>
+                <h2>Where I shine</h2>
+                <p>
+                  One of the best defending code in Flatiron Hackathon
+                </p>   
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
+        </Responsive>
+        
       </Container>
     )
   }
