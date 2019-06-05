@@ -31,9 +31,11 @@ class Contact extends Component {
           <Grid columns={2}>
             <Grid.Row >
               <Grid.Column>
-                <h2>I'd love to hear from you.</h2>
+                <h2 style = {{padding:"50px 0px 50px"}}>
+                  I'd love to hear from you.
+                </h2>
 
-                <Container textAlign='left' className="spaceing">
+                <Container textAlign='left' className="spaceing" style = {{padding:"0px 0px 50px"}}>
                   <a href="#"><Icon name='facebook'  size='big'  color='white' className="icon"/></a>
                   <a href="#"><Icon name='twitter' size='big'  color='white' className="icon"/></a>
                   <a href="https://linkedin.com/in/felixchan29/"><Icon name='linkedin' size='big' color='white' className="icon"/></a>
