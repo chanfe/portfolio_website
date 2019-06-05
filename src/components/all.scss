@@ -17,3 +17,12 @@ h2 {
     line-height: 1.4em;
     text-transform: none;
 }
+
+a {
+    color:gray !important;
+    i {
+        &:hover {
+            color: white !important;
+        }
+    }
+}

@@ -15,6 +15,7 @@ class Contact extends Component {
 
             Download CV
 
+
             </h2>
             <Container textAlign='center' className="spaceing">
                 <a href="#"><Icon name='facebook'  size='big' inverted color='black' className="icon"/></a>
@@ -33,13 +34,13 @@ class Contact extends Component {
                 <h2>I'd love to hear from you.</h2>
 
                 <Container textAlign='left' className="spaceing">
-                  <a href="#"><Icon name='facebook'  size='big' inverted color='black' className="icon"/></a>
-                  <a href="#"><Icon name='twitter' size='big' inverted color='black' className="icon"/></a>
-                  <a href="https://linkedin.com/in/felixchan29/"><Icon name='linkedin' size='big' inverted color='black' className="icon"/></a>
-                  <a href="#"><Icon name='google plus' size='big' inverted color='black' className="icon"/></a>
-                  <a href="https://github.com/chanfe"><Icon name='github' size='big' inverted color='black' className="icon"/></a>
-                  <a href="#"><Icon name='youtube' size='big' inverted color='black' className="icon"/></a>
-                  <a href="mailto:felixchan29@gmail.com"><Icon name='mail' size='big' inverted color='black' className="icon"/></a>
+                  <a href="#"><Icon name='facebook'  size='big'  color='white' className="icon"/></a>
+                  <a href="#"><Icon name='twitter' size='big'  color='white' className="icon"/></a>
+                  <a href="https://linkedin.com/in/felixchan29/"><Icon name='linkedin' size='big' color='white' className="icon"/></a>
+                  <a href="#"><Icon name='google plus' size='big'  color='white' className="icon"/></a>
+                  <a href="https://github.com/chanfe"><Icon name='github' size='big'  color='white' className="icon"/></a>
+                  <a href="#"><Icon name='youtube' size='big' color='white' className="icon"/></a>
+                  <a href="mailto:felixchan29@gmail.com"><Icon name='mail' size='big' color='white' className="icon"/></a>
                 </Container> 
               </Grid.Column>
               <Grid.Column>
