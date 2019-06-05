@@ -60,10 +60,12 @@ class MainPage extends Component {
       </div>
 
       <div className="container">
-        <img src={typing} className="image" alt=""/>
+        {/* <img src={typing} className="image" alt=""/> */}
+        <div className="parallax"/>
         <div className="overlay">
           <div className="text">
-            <h1>Hello, I'm Felix Chan</h1>
+            <h1>Hello, I'm</h1>
+            <h3>Felix Chan.</h3>
             <h2>FullStack Web Developer</h2>
           </div>
         </div>

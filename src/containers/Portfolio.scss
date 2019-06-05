@@ -10,6 +10,16 @@
   height: auto;
 }
 
+.parallax {
+  background-image: url('../assets/typing.gif');
+  height: 100vh;  
+  filter:brightness(50%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -30,10 +40,19 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  h1 {
+    font: normal normal normal 24px/1.4em futura-lt-w01-light,sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 0.35em;
+  }
+  h3 {
+    font: normal normal bold 88px/1.4em playfairdisplay-bold,'playfair display',serif;
+    color: #FFFFFF;
+  }
 }
 
 .grayStyle {
-  background:#eee;
+  background:#edeeef;
 }
 .darkgrayStyle {
   background:#262626;
