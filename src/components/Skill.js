@@ -37,14 +37,14 @@ class Skill extends Component {
 
             </ul>
           </Responsive>
-          
+
           <Responsive minWidth={Responsive.onlyTablet.minWidth}>
             <Grid >
-              <Grid.Row columns={3}>
-                <Grid.Column>
+              <Grid.Row >
+                <Grid.Column width={5}>
                   <h1>Technologies</h1>
                 </Grid.Column>
-                <Grid.Column>
+                <Grid.Column width={6}>
                   <h2>DAY-TO-DAY COMFORT</h2>
           
                   <ul>
@@ -58,7 +58,7 @@ class Skill extends Component {
                     <li>Agile Methodology</li>
                   </ul>
                 </Grid.Column>
-                <Grid.Column>
+                <Grid.Column width={5}>
                  <h2>EXPERIENCE WITH</h2>
         
                   <ul>
