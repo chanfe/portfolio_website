@@ -1,11 +1,6 @@
 import React, { Component } from 'react'
-import Footer from './Footer'
-import { NavLink } from 'react-router-dom';
-import { Menu, Segment, Responsive, Button, Header, Icon, Image, Container } from 'semantic-ui-react'
-import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
+import { Menu, Segment} from 'semantic-ui-react'
 import { connect } from 'react-redux'
-
 
 class NavBar extends Component {
 
@@ -18,21 +13,12 @@ class NavBar extends Component {
     }
   }
 
-  // shouldComponentUpdate(nextState) {
-  //   const differentTitle = this.state.activeItem !== nextState.activeItem;
-  //   console.log(nextState,this.state.activeItem,differentTitle)
-  //   return differentTitle;
-  // }
-
-
-
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
   handleSidebarHide = () => this.setState({ visible: false })
   handleButtonClick = () => this.setState({ visible: !this.state.visible })
 
   render() {
     const { children } = this.props
-    const { visible } = this.state
     return (
       <div>
           <Segment inverted >

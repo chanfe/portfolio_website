@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import './Portfolio.scss';
-import { Container, Responsive, Grid, Segment, Transition, Icon} from 'semantic-ui-react'
-import ScrollingWrapper from './ScrollingWrapper.js'
-
-import typing from '../assets/typing.gif'
+import { Icon } from 'semantic-ui-react'
 import About from '../components/About'
 import Education from '../components/Education'
 import Experience from '../components/Experience'
@@ -12,7 +9,6 @@ import Skill from '../components/Skill'
 import Intrests from '../components/Intrests'
 import Contact from '../components/Contact'
 import Awards from '../components/Awards'
-import Footer from './Footer'
 import NavBar from './NavBar'
 
 const darkgrayStyle = {
@@ -48,19 +44,16 @@ class MainPage extends Component {
   scrollToWork = () => window.scrollTo(0, this.work.current.offsetTop)
   scrollToAwards = () => window.scrollTo(0, this.awards.current.offsetTop)
 
-  // href="/chanfe/portfolio_website/raw/master/src/assets/Felix_Chan_Software_Engineer.pdf"
   render(){
     return (
     <div >
       <div ref={this.top}></div>
-      {/* <a href='https://github.com/chanfe/portfolio_website/raw/master/src/assets/Felix_Chan_Software_Engineer.pdf' download>Click to download</a> */}
 
       <div style={darkgrayStyle}>
         <NavBar scrollToEdu={this.scrollToEdu} scrollToAbout={this.scrollToAbout} scrollToSkill={this.scrollToSkill} scrollToIntrests={this.scrollToIntrests} scrollToContact={this.scrollToContact} scrollToWork={this.scrollToWork} scrollToAwards={this.scrollToAwards} />
       </div>
 
       <div className="container">
-        {/* <img src={typing} className="image" alt=""/> */}
         <div className="parallax"/>
         <div className="overlay">
           <div className="text">
