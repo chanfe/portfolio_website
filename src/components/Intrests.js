@@ -9,8 +9,8 @@ class Intrests extends Component {
       <Container textAlign='left'>
         
         <Responsive {...Responsive.onlyMobile}>
-          <h1>Intrests</h1>
-          <h2>Out of Office</h2>
+          <h1>Interests</h1>
+          <h3>Out of Office</h3>
           <p>
             <ul>
               <li>Game enthusiast</li>
@@ -26,7 +26,7 @@ class Intrests extends Component {
                 <h1>Intrests</h1>
               </Grid.Column>
               <Grid.Column width={11}>
-                <h2>Out of Office</h2>
+                <h3>Out of Office</h3>
                 <p>
                   <ul>
                     <li>Game enthusiast</li>

@@ -9,7 +9,7 @@ class Skill extends Component {
       <Container textAlign='left'>
           <Responsive {...Responsive.onlyMobile}>
           <h1>Technologies</h1>
-            <h2>DAY-TO-DAY COMFORT</h2>
+            <h3>DAY-TO-DAY COMFORT</h3>
     
             <ul>
               <li>HTML / CSS</li>
@@ -22,7 +22,7 @@ class Skill extends Component {
               <li>Agile Methodology</li>
             </ul>
 
-            <h2>EXPERIENCE WITH</h2>
+            <h3>EXPERIENCE WITH</h3>
   
             <ul>
               <li>Java</li>
@@ -45,7 +45,7 @@ class Skill extends Component {
                   <h1>Technologies</h1>
                 </Grid.Column>
                 <Grid.Column width={6}>
-                  <h2>DAY-TO-DAY COMFORT</h2>
+                  <h3>DAY-TO-DAY COMFORT</h3>
           
                   <ul>
                     <li>HTML / CSS</li>
@@ -59,7 +59,7 @@ class Skill extends Component {
                   </ul>
                 </Grid.Column>
                 <Grid.Column width={5}>
-                 <h2>EXPERIENCE WITH</h2>
+                 <h3>EXPERIENCE WITH</h3>
         
                   <ul>
                     <li>Java</li>

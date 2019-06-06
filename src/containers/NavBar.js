@@ -62,10 +62,10 @@ class NavBar extends Component {
                 name='Work experiance'
                 onClick={this.props.scrollToWork}
                 />
-                <Menu.Item
+                {/* <Menu.Item
                 name='Awards'
                 onClick={this.props.scrollToAwards}
-                />
+                /> */}
               </Menu.Menu>
             </Menu>
           </Segment>

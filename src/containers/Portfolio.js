@@ -65,7 +65,7 @@ class MainPage extends Component {
         <div className="overlay">
           <div className="text">
             <h1>Hello, I'm</h1>
-            <h3>Felix Chan.</h3>
+            <h3>Felix Chan</h3>
             <h2>FullStack Web Developer</h2>
           </div>
         </div>
@@ -89,7 +89,7 @@ class MainPage extends Component {
       </div>
 
       <div ref={this.awards}>
-        <Awards />
+        {/* <Awards /> */}
       </div>
 
       <div ref={this.intrests}>

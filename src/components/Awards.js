@@ -9,7 +9,7 @@ class Awards extends Component {
       <Container textAlign='left'>
         <Responsive {...Responsive.onlyMobile}>
           <h1>Awards</h1>
-          <h2>Where I shine</h2>
+          <h3>Where I shine</h3>
           <p>
             One of the best defending code in Flatiron Hackathon
           </p>
@@ -22,7 +22,7 @@ class Awards extends Component {
                 <h1>Awards</h1>
               </Grid.Column>
               <Grid.Column width={11}>
-                <h2>Where I shine</h2>
+                <h3>Where I shine</h3>
                 <p>
                   One of the best defending code in Flatiron Hackathon
                 </p>   

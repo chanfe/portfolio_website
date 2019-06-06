@@ -9,11 +9,12 @@ class Education extends Component {
       <Container textAlign='left'>
         <Responsive {...Responsive.onlyMobile}>
           <h1>Education</h1>
-          <h2>Boot Camp Graduate</h2>
+          <h3>Boot Camp Graduate</h3>
           <p>
             Flatiron School - Access Lab, Brooklyn, NY, Augest 2018 – November 2018
           </p>
-          <h2>Bachelor of Science in Computer Science</h2>
+          
+          <h3>Bachelor of Science in Computer Science</h3>
           <p>
             Appalachian State University, Boone, NC, Augest 2012 - May 2016
           </p> 	 
@@ -26,11 +27,11 @@ class Education extends Component {
                 <h1>Education</h1>
               </Grid.Column>
               <Grid.Column width={11}>
-                <h2>Boot Camp Graduate</h2>
+                <h3>Boot Camp Graduate</h3>
                 <p>
                   Flatiron School - Access Lab, Brooklyn, NY, Augest 2018 – November 2018
                 </p>
-                <h2>Bachelor of Science in Computer Science</h2>
+                <h3>Bachelor of Science in Computer Science</h3>
                 <p>
                   Appalachian State University, Boone, NC, Augest 2012 - May 2016
                 </p> 	      
