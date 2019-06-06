@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import './Portfolio.scss';
-import { Container, Responsive, Grid, Segment, Transition} from 'semantic-ui-react'
+import { Container, Responsive, Grid, Segment, Transition, Icon} from 'semantic-ui-react'
 import ScrollingWrapper from './ScrollingWrapper.js'
 
 import typing from '../assets/typing.gif'
@@ -100,9 +100,15 @@ class MainPage extends Component {
         <Contact />
       </div>
 
-      <div onClick={this.scrollToTop}> >
+      {/* <div onClick={this.scrollToTop}> >
         <Footer />
-      </div> 
+      </div>  */}
+
+      <button title='Back to top' className='scroll' onClick={ () => { this.scrollToTop(); }}>
+        <span className='arrow-up'>
+          <Icon name="angle up" style={{padding: "0px 7px 0px 0px"}}></Icon>
+        </span>
+      </button>
 
     </div>
     )

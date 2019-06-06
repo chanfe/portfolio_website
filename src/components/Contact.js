@@ -15,10 +15,11 @@ class Contact extends Component {
             <h2>
             (123)-456-7890
             </h2>
-
-            <a href='https://github.com/chanfe/portfolio_website/raw/master/src/assets/Felix_Chan_Software_Engineer.pdf' download>
-              <Button>Download Resume</Button>
-            </a>
+            <div style = {{padding:"25px 0px 0px"}}>
+              <a href='https://github.com/chanfe/portfolio_website/raw/master/src/assets/Felix_Chan_Software_Engineer.pdf' download>
+                <Button>Download Resume</Button>
+              </a>
+            </div>
             <div style = {{padding:"50px 0px 50px"}}>
                 <a href="#"><Icon name='facebook'  size='big' inverted color='black' className="icon"/></a>
                 <a href="#"><Icon name='twitter' size='big' inverted color='black' className="icon"/></a>
