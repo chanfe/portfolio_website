@@ -50,13 +50,13 @@ class MainPage extends Component {
       <div ref={this.top}></div>
 
       <div style={darkgrayStyle}>
-        <NavBar scrollToEdu={this.scrollToEdu} scrollToAbout={this.scrollToAbout} scrollToSkill={this.scrollToSkill} scrollToIntrests={this.scrollToIntrests} scrollToContact={this.scrollToContact} scrollToWork={this.scrollToWork} scrollToAwards={this.scrollToAwards} />
+        <NavBar id="navbar" scrollToEdu={this.scrollToEdu} scrollToAbout={this.scrollToAbout} scrollToSkill={this.scrollToSkill} scrollToIntrests={this.scrollToIntrests} scrollToContact={this.scrollToContact} scrollToWork={this.scrollToWork} scrollToAwards={this.scrollToAwards} />
       </div>
 
       <div className="container">
         <div className="parallax"/>
         <div className="overlay">
-          <div className="text">
+          <div id="welcome-section" className="text">
             <h1>Hello, I'm</h1>
             <h3>Felix Chan</h3>
             <h2>FullStack Web Developer</h2>

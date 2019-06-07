@@ -40,7 +40,7 @@ class Contact extends Component {
                   I'd love to hear from you.
                 </h1>
 
-                <Container textAlign='left' className="spaceing" style = {{padding:"0px 0px 50px"}}>
+                <Container textAlign='left' className="spaceing" style = {{padding:"0px 0px 50px"}} id="profile-links">
                   <a href="https://linkedin.com/in/felixchan29/"><Icon name='linkedin' size='big' color='white' className="icon"/></a>
                   <a href="https://github.com/chanfe"><Icon name='github' size='big'  color='white' className="icon"/></a>
                   <a href="mailto:felixchan29@gmail.com"><Icon name='mail' size='big' color='white' className="icon"/></a>
