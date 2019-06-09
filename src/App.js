@@ -14,7 +14,7 @@ class App extends Component {
         <React.Fragment>
             <Responsive {...Responsive.onlyMobile}>
               <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-            </Responsive>          
+            </Responsive>      
           <Switch>
             <Route path="/" render={(props) => <Portfolio />} />
           </Switch>
