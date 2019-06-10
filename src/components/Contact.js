@@ -13,7 +13,7 @@ class Contact extends Component {
             </h2>
 
             <h2>
-            (123)-456-7890
+            (336)-772-5318
             </h2>
             <div style = {{padding:"25px 0px 0px"}}>
               <a href='https://github.com/chanfe/portfolio_website/raw/master/src/assets/Felix_Chan_Software_Engineer.pdf' download>
