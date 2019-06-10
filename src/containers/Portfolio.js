@@ -9,6 +9,7 @@ import Skill from '../components/Skill'
 import Intrests from '../components/Intrests'
 import Contact from '../components/Contact'
 import Awards from '../components/Awards'
+import Projects from '../components/Projects'
 import NavBar from './NavBar'
 
 const darkgrayStyle = {
@@ -87,6 +88,10 @@ class MainPage extends Component {
 
       <div ref={this.intrests}>
         <Intrests />
+      </div>
+
+      <div className="grayStyle" ref={this.skill}>
+        <Projects />
       </div>
 
       <div className="darkdarkgrayStyle" ref={this.contact}>
