@@ -23,7 +23,7 @@ class Intrests extends Component {
           <Grid>
             <Grid.Row>
               <Grid.Column width={5}>
-                <h1>Intrests</h1>
+                <h1>Interests</h1>
               </Grid.Column>
               <Grid.Column width={11}>
                 <h3>Out of Office</h3>
