@@ -9,7 +9,7 @@ class Projects extends Component {
       <Container textAlign='left'>
         
         <Responsive {...Responsive.onlyMobile}>
-          <h1>Projects</h1>
+          {/* <h1>Projects</h1> */}
         </Responsive>
         
         <Responsive minWidth={Responsive.onlyTablet.minWidth}>
