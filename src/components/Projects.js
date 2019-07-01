@@ -9,7 +9,76 @@ class Projects extends Component {
       <Container textAlign='left'>
         
         <Responsive {...Responsive.onlyMobile}>
-          {/* <h1>Projects</h1> */}
+          <h1>Projects</h1>
+          <Card>
+            <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Game.png' wrapped ui={false} />
+            <Card.Content>
+              <Card.Header>Follow</Card.Header>
+              <Card.Meta>
+                <span className='date'>Created Nov 2018</span>
+              </Card.Meta>
+              <Card.Description>
+                A 2D adaptive adventure game.
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              <a href="https://gameonweb.herokuapp.com/">
+                Click Here to see the App
+              </a>
+            </Card.Content>
+          </Card>
+          <Card>
+            <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Renting.png' wrapped ui={false} />
+            <Card.Content>
+              <Card.Header>Community Renting App</Card.Header>
+              <Card.Meta>
+                <span className='date'>Created Oct 2018</span>
+              </Card.Meta>
+              <Card.Description>
+                An app that allows users to rent or rent out all kinds of items. 
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              <a href="https://community-renting.herokuapp.com/">
+                Click Here to see the App
+              </a>
+            </Card.Content>
+          </Card>
+          <Card>
+            <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Stock.png' wrapped ui={false} />
+            <Card.Content>
+              <Card.Header>Stock Exchange App</Card.Header>
+              <Card.Meta>
+                <span className='date'>Created Oct 2018</span>
+              </Card.Meta>
+              <Card.Description>
+                An app that allows users to buy and sell imitation stock cards in real time and provides users with information about current events.
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              <a href="https://stock-game-frontend.herokuapp.com/">
+                Click Here to see the App
+              </a>
+            </Card.Content>
+          </Card>
+          <Card>
+            <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/MarsPhoto.png' wrapped ui={false} />
+            <Card.Content>
+              <Card.Header>Mars Photo App</Card.Header>
+              <Card.Meta>
+                <span className='date'>Created Jun 2019</span>
+              </Card.Meta>
+              <Card.Description>
+                An app if input a sol and camera will give you all of the photo that rover curiosity took
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              <a href="https://mars-photo-frontend.herokuapp.com/">
+                Click Here to see the App
+              </a>
+            </Card.Content>
+          </Card>
+          <p>Some of these site my take up to 5 minutes to spin up and may need to refresh to work.</p>
         </Responsive>
         
         <Responsive minWidth={Responsive.onlyTablet.minWidth}>
@@ -18,7 +87,7 @@ class Projects extends Component {
             <Grid.Row>
               <Grid.Column width={5}>
                 <Card>
-                  <Image src='../assets/Game.png' wrapped ui={false} />
+                  <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Game.png' wrapped ui={false} />
                   <Card.Content>
                     <Card.Header>Follow</Card.Header>
                     <Card.Meta>
@@ -30,14 +99,14 @@ class Projects extends Component {
                   </Card.Content>
                   <Card.Content extra>
                     <a href="https://gameonweb.herokuapp.com/">
-                      https://www.google.com/
+                      Click Here to see the App
                     </a>
                   </Card.Content>
                 </Card>
               </Grid.Column>
               <Grid.Column width={5}>
                 <Card>
-                  <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
+                  <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Renting.png' wrapped ui={false} />
                   <Card.Content>
                     <Card.Header>Community Renting App</Card.Header>
                     <Card.Meta>
@@ -49,14 +118,14 @@ class Projects extends Component {
                   </Card.Content>
                   <Card.Content extra>
                     <a href="https://community-renting.herokuapp.com/">
-                      https://www.google.com/
+                      Click Here to see the App
                     </a>
                   </Card.Content>
                 </Card>
               </Grid.Column>
-              <Grid.Column width={6}>
+              <Grid.Column width={5}>
                 <Card>
-                  <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
+                  <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Stock.png' wrapped ui={false} />
                   <Card.Content>
                     <Card.Header>Stock Exchange App</Card.Header>
                     <Card.Meta>
@@ -68,9 +137,27 @@ class Projects extends Component {
                   </Card.Content>
                   <Card.Content extra>
                     <a href="https://stock-game-frontend.herokuapp.com/">
-                      https://www.google.com/
+                      Click Here to see the App
                     </a>
-                    <a>https://mars-photo-frontend.herokuapp.com/</a>
+                  </Card.Content>
+                </Card>
+              </Grid.Column>
+              <Grid.Column width={5}>
+                <Card>
+                  <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/MarsPhoto.png' wrapped ui={false} />
+                  <Card.Content>
+                    <Card.Header>Mars Photo App</Card.Header>
+                    <Card.Meta>
+                      <span className='date'>Created Jun 2019</span>
+                    </Card.Meta>
+                    <Card.Description>
+                      An app if input a sol and camera will give you all of the photo that rover curiosity took
+                    </Card.Description>
+                  </Card.Content>
+                  <Card.Content extra>
+                    <a href="https://mars-photo-frontend.herokuapp.com/">
+                      Click Here to see the App
+                    </a>
                   </Card.Content>
                 </Card>
               </Grid.Column>
