@@ -55,11 +55,11 @@ class Projects extends Component {
                 An app that allows users to buy and sell imitation stock cards in real time and provides users with information about current events.
               </Card.Description>
             </Card.Content>
+            <a href="https://stock-game-frontend.herokuapp.com/">
             <Card.Content extra>
-              <a href="https://stock-game-frontend.herokuapp.com/">
                 Click Here to see the App
-              </a>
             </Card.Content>
+            </a>
           </Card>
           <Card>
             <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/MarsPhoto.png' wrapped ui={false} />
@@ -72,11 +72,11 @@ class Projects extends Component {
                 An app if input a sol and camera will give you all of the photo that rover curiosity took
               </Card.Description>
             </Card.Content>
-            <Card.Content extra>
-              <a href="https://mars-photo-frontend.herokuapp.com/">
+            <a href="https://mars-photo-frontend.herokuapp.com/">
+              <Card.Content extra>
                 Click Here to see the App
-              </a>
-            </Card.Content>
+              </Card.Content>
+            </a>
           </Card>
           <p>Some of these site my take up to 5 minutes to spin up and may need to refresh to work.</p>
         </Responsive>
@@ -97,11 +97,13 @@ class Projects extends Component {
                       A 2D adaptive adventure game.
                     </Card.Description>
                   </Card.Content>
-                  <Card.Content extra>
-                    <a href="https://gameonweb.herokuapp.com/">
-                      Click Here to see the App
-                    </a>
-                  </Card.Content>
+                  <a href="https://gameonweb.herokuapp.com/">
+                    <Card.Content extra>
+                      
+                        Click Here to see the App
+                      
+                    </Card.Content>
+                  </a>
                 </Card>
               </Grid.Column>
               <Grid.Column width={5}>
@@ -116,11 +118,11 @@ class Projects extends Component {
                       An app that allows users to rent or rent out all kinds of items. 
                     </Card.Description>
                   </Card.Content>
-                  <Card.Content extra>
-                    <a href="https://community-renting.herokuapp.com/">
-                      Click Here to see the App
-                    </a>
-                  </Card.Content>
+                  <a href="https://community-renting.herokuapp.com/">
+                    <Card.Content extra>       
+                        Click Here to see the App
+                    </Card.Content>
+                  </a>
                 </Card>
               </Grid.Column>
               <Grid.Column width={5}>
@@ -135,11 +137,13 @@ class Projects extends Component {
                       An app that allows users to buy and sell imitation stock cards in real time and provides users with information about current events.
                     </Card.Description>
                   </Card.Content>
-                  <Card.Content extra>
-                    <a href="https://stock-game-frontend.herokuapp.com/">
-                      Click Here to see the App
-                    </a>
-                  </Card.Content>
+                  <a href="https://stock-game-frontend.herokuapp.com/">
+                    <Card.Content extra>
+                      
+                        Click Here to see the App
+                      
+                    </Card.Content>
+                  </a>
                 </Card>
               </Grid.Column>
               <Grid.Column width={5}>
@@ -154,11 +158,11 @@ class Projects extends Component {
                       An app if input a sol and camera will give you all of the photo that rover curiosity took
                     </Card.Description>
                   </Card.Content>
-                  <Card.Content extra>
-                    <a href="https://mars-photo-frontend.herokuapp.com/">
-                      Click Here to see the App
-                    </a>
-                  </Card.Content>
+                  <a href="https://mars-photo-frontend.herokuapp.com/">
+                    <Card.Content extra>
+                      Click Here to see th
+                    </Card.Content>
+                  </a>
                 </Card>
               </Grid.Column>
             </Grid.Row>
