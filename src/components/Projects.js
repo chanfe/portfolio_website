@@ -160,7 +160,7 @@ class Projects extends Component {
                   </Card.Content>
                   <a href="https://mars-photo-frontend.herokuapp.com/">
                     <Card.Content extra>
-                      Click Here to see th
+                      Click Here to see the App
                     </Card.Content>
                   </a>
                 </Card>
