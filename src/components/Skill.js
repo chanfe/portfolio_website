@@ -32,6 +32,8 @@ class Skill extends Component {
               <li>Unity</li>
               <li>Heroku</li>
               <li>Node.js(limited)</li>
+              <li>Express(limited)</li>
+              <li>MongoDB(limited)</li>
               <li>Jenkins(limited)</li>
               <li>AWS(limited)</li>
 
@@ -69,6 +71,8 @@ class Skill extends Component {
                     <li>Unity</li>
                     <li>Heroku</li>
                     <li>Node.js(limited)</li>
+                    <li>Express(limited)</li>
+                    <li>MongoDB(limited)</li>
                     <li>Jenkins(limited)</li>
                     <li>AWS(limited)</li>
 
