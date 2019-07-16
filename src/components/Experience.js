@@ -41,6 +41,16 @@ class Experience extends Component {
                   <h1>Work Experience</h1>
                 </Grid.Column>
                 <Grid.Column width={11}>
+                <h3>Chingu, New York, NY, Jun 2019 – Present</h3>
+                  <h4>Remote Full Stack Web Developer Participate</h4>
+                  <p>
+                    <ul>
+                      <li>
+                      Collaborated with other software consultants to create a MERN stack application
+                      </li>
+                    </ul>
+                  </p>
+
                 <h3>Lowe’s Corporation, Mooresville, NC, Jul 2016 – Dec 2017</h3>
                   <h4>Software Engineer</h4>
                   <p>
