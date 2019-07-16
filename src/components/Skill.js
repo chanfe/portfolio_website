@@ -36,6 +36,7 @@ class Skill extends Component {
               <li>MongoDB(limited)</li>
               <li>Jenkins(limited)</li>
               <li>AWS(limited)</li>
+              <li>twilio(limited)</li>
 
             </ul>
           </Responsive>
@@ -75,6 +76,7 @@ class Skill extends Component {
                     <li>MongoDB(limited)</li>
                     <li>Jenkins(limited)</li>
                     <li>AWS(limited)</li>
+                    <li>twilio(limited)</li>
 
                   </ul>
                 </Grid.Column>
