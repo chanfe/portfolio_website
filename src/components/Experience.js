@@ -55,7 +55,10 @@ class Experience extends Component {
                   <p>
                     <ul>
                       <li>
-                      Collaborated with other software consultants to create a MERN stack application
+                      Collaborated with other software consultants to create a Equipment Tracker application using the MERN stack 
+                      </li>
+                      <li>
+                        Application uses Google Firebase to deploy and learn hoe to use React Hooks
                       </li>
                     </ul>
                   </p>
