@@ -37,7 +37,9 @@ class Skill extends Component {
               <li>Jenkins(limited)</li>
               <li>twilio(limited)</li>
               <li>AWS(limited)</li>
+              <li>AWS EC2(limited)</li>
               <li>AWS Sumerian(limited)</li>
+              <li>Firebase(google)(limited)</li>
 
             </ul>
           </Responsive>
