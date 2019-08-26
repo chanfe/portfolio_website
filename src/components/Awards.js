@@ -25,7 +25,7 @@ class Awards extends Component {
                 <h3>Where I shine</h3>
                 <p>
                   One of the best defending code in Flatiron Hackathon
-                </p>   
+                </p>
               </Grid.Column>
             </Grid.Row>
           </Grid>

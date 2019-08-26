@@ -17,6 +17,9 @@ class Experience extends Component {
                       <li>
                       Collaborated with other software consultants to create a MERN stack application
                       </li>
+                      <li>
+                        Application uses Google Firebase to deploy and learn how to use React Hooks
+                      </li>
                     </ul>
                   </p>
             <h3>Lowe’s Corporation, Mooresville, NC, Jul 2016 – Dec 2017</h3>
@@ -58,7 +61,7 @@ class Experience extends Component {
                       Collaborated with other software consultants to create a Equipment Tracker application using the MERN stack 
                       </li>
                       <li>
-                        Application uses Google Firebase to deploy and learn hoe to use React Hooks
+                        Application uses Google Firebase to deploy and learn how to use React Hooks
                       </li>
                     </ul>
                   </p>
