@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Container, Responsive, Grid, Card, Image } from 'semantic-ui-react'
+import { Container, Responsive, Grid, Card, Image, Icon } from 'semantic-ui-react'
 import './all.scss'
+import './project.scss'
 
 class Projects extends Component {
 
@@ -86,25 +87,32 @@ class Projects extends Component {
           <Grid>
             <Grid.Row>
               <Grid.Column width={5}>
+                <div class='container2'>
                 <Card>
                   <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Game.png' wrapped ui={false} />
-                  <Card.Content>
-                    <Card.Header>Follow</Card.Header>
-                    <Card.Meta>
-                      <span className='date'>Created Nov 2018</span>
-                    </Card.Meta>
-                    <Card.Description>
-                      A 2D adaptive adventure game.
-                    </Card.Description>
-                  </Card.Content>
-                  <a href="https://gameonweb.herokuapp.com/">
-                    <Card.Content extra>
-                      
-                        Click Here to see the App
-                      
-                    </Card.Content>
-                  </a>
+                  <div class="overlay2">
+                    <Card>
+                      <Card.Content>
+                        <Card.Header>Follow</Card.Header>
+                        <Card.Meta>
+                          <span className='date'>Created Nov 2018</span>
+                        </Card.Meta>
+                        <Card.Description>
+                          A 2D adaptive adventure game.
+                        </Card.Description>
+                      </Card.Content>
+                      <Card.Content extra>
+                        <a href="https://gameonweb.herokuapp.com/">
+                          <Icon circular name='linkify' />
+                        </a>
+                        <a href="https://github.com/chanfe/game-on-frontend">
+                          <Icon circular name='github' />
+                        </a>
+                      </Card.Content>
+                    </Card>
+                  </div>
                 </Card>
+                </div>
               </Grid.Column>
               <Grid.Column width={5}>
                 <Card>
