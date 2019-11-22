@@ -14,6 +14,11 @@ class Education extends Component {
             Flatiron School - Access Lab, Brooklyn, NY, Augest 2018 – November 2018
           </p>
           
+          <h3>Student</h3>
+          <p>
+            FreeCodeCamp - January 2018 – Present
+          </p>
+
           <h3>Bachelor of Science in Computer Science</h3>
           <p>
             Appalachian State University, Boone, NC, Augest 2012 - May 2016
@@ -30,6 +35,10 @@ class Education extends Component {
                 <h3>Boot Camp Graduate</h3>
                 <p>
                   Flatiron School - Access Lab, Brooklyn, NY, Augest 2018 – November 2018
+                </p>
+                <h3>Student</h3>
+                <p>
+                  FreeCodeCamp - January 2018 – Present
                 </p>
                 <h3>Bachelor of Science in Computer Science</h3>
                 <p>
