@@ -10,6 +10,15 @@ class Experience extends Component {
       <Container textAlign='left'>
         <Responsive {...Responsive.onlyMobile}>
           <h1>Work Experience</h1>
+          <h3>PlateRate, New York, NY, Dec 2019 – Present</h3>
+          <h4>Remote Full Stack Developer </h4>
+          <p>
+            <ul>
+              <li>
+              A remote Full Stack Developer and working on modernizing PlateRate frontend by implementing a better website design.              
+              </li>
+            </ul>
+          </p>
           <h3>Full Stack Progressive, New York, NY, Aug 2019 – Present</h3>
             <h4>Full Stack Web Developer Participate</h4>
             <p>
@@ -65,6 +74,15 @@ class Experience extends Component {
                   <h1>Work Experience</h1>
                 </Grid.Column>
                 <Grid.Column width={11}>
+                <h3>PlateRate, New York, NY, Dec 2019 – Present</h3>
+                <h4>Remote Full Stack Developer </h4>
+                <p>
+                  <ul>
+                    <li>
+                    A remote Full Stack Developer and working on modernizing PlateRate frontend by implementing a better website design.              
+                    </li>
+                  </ul>
+                </p>
                 <h3>Full Stack Progressive, New York, NY, Aug 2019 – Present</h3>
                 <h4>Full Stack Web Developer Participate</h4>
                 <p>
