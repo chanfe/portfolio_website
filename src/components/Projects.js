@@ -120,25 +120,25 @@ class Projects extends Component {
                   <Card>
                     <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Renting.png' wrapped ui={false} />
                     <div class="overlay2">
-                    <Card>
-                      <Card.Content>
-                        <Card.Header>Community Renting App</Card.Header>
-                        <Card.Meta>
-                          <span className='date'>Created Oct 2018</span>
-                        </Card.Meta>
-                        <Card.Description>
-                          An app that allows users to rent or rent out all kinds of items. 
-                        </Card.Description>
-                      </Card.Content>
-                      <Card.Content extra>
-                            <a href="https://community-renting.herokuapp.com/">
-                              <Icon circular name='linkify' />
-                            </a>
-                            <a href="https://github.com/chanfe/community-renting-app-frontend">
-                              <Icon circular name='github' />
-                            </a>
-                      </Card.Content>
-                    </Card>
+                      <Card>
+                        <Card.Content>
+                          <Card.Header>Community Renting App</Card.Header>
+                          <Card.Meta>
+                            <span className='date'>Created Oct 2018</span>
+                          </Card.Meta>
+                          <Card.Description>
+                            An app that allows users to rent or rent out all kinds of items. 
+                          </Card.Description>
+                        </Card.Content>
+                        <Card.Content extra>
+                              <a href="https://community-renting.herokuapp.com/">
+                                <Icon circular name='linkify' />
+                              </a>
+                              <a href="https://github.com/chanfe/community-renting-app-frontend">
+                                <Icon circular name='github' />
+                              </a>
+                        </Card.Content>
+                      </Card>
                     </div>
                   </Card>
                 </div>
