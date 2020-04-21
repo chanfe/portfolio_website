@@ -114,88 +114,91 @@ class Projects extends Component {
                 </Card>
                 </div>
               </Grid.Column>
+
               <Grid.Column width={5}>
-              <div class='container2'>
-                <Card>
-                  <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Renting.png' wrapped ui={false} />
-                  <div class="overlay2">
+                <div class='container2'>
                   <Card>
+                    <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Renting.png' wrapped ui={false} />
+                    <div class="overlay2">
+                    <Card>
+                      <Card.Content>
+                        <Card.Header>Community Renting App</Card.Header>
+                        <Card.Meta>
+                          <span className='date'>Created Oct 2018</span>
+                        </Card.Meta>
+                        <Card.Description>
+                          An app that allows users to rent or rent out all kinds of items. 
+                        </Card.Description>
+                      </Card.Content>
+                      <Card.Content extra>
+                            <a href="https://community-renting.herokuapp.com/">
+                              <Icon circular name='linkify' />
+                            </a>
+                            <a href="https://github.com/chanfe/community-renting-app-frontend">
+                              <Icon circular name='github' />
+                            </a>
+                      </Card.Content>
+                    </Card>
+                    </div>
+                  </Card>
+                </div>
+              </Grid.Column>
+              <Grid.Column width={5}>
+                <div class='container2'>
+                  <Card>
+                    <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Stock.png' wrapped ui={false} />
+                    <div class="overlay2">
+                    <Card>
                     <Card.Content>
-                      <Card.Header>Community Renting App</Card.Header>
+                      <Card.Header>Stock Exchange App</Card.Header>
                       <Card.Meta>
                         <span className='date'>Created Oct 2018</span>
                       </Card.Meta>
                       <Card.Description>
-                        An app that allows users to rent or rent out all kinds of items. 
+                        An app that allows users to buy and sell imitation stock cards in real time and provides users with information about current events.
                       </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
-                          <a href="https://community-renting.herokuapp.com/">
-                            <Icon circular name='linkify' />
-                          </a>
-                          <a href="https://github.com/chanfe/community-renting-app-frontend">
-                            <Icon circular name='github' />
-                          </a>
+                            <a href="https://stock-game-frontend.herokuapp.com/">
+                              <Icon circular name='linkify' />
+                            </a>
+                            <a href="https://github.com/joyhuangg/stock_game_frontend">
+                              <Icon circular name='github' />
+                            </a>
                     </Card.Content>
+                    </Card>
+                    </div>
                   </Card>
-                  </div>
-                </Card>
                 </div>
               </Grid.Column>
+            </Grid.Row>
+            <Grid.Row>
               <Grid.Column width={5}>
-              <div class='container2'>
-                <Card>
-                  <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Stock.png' wrapped ui={false} />
-                  <div class="overlay2">
+                <div class='container2'>
                   <Card>
-                  <Card.Content>
-                    <Card.Header>Stock Exchange App</Card.Header>
-                    <Card.Meta>
-                      <span className='date'>Created Oct 2018</span>
-                    </Card.Meta>
-                    <Card.Description>
-                      An app that allows users to buy and sell imitation stock cards in real time and provides users with information about current events.
-                    </Card.Description>
-                  </Card.Content>
-                  <Card.Content extra>
-                          <a href="https://stock-game-frontend.herokuapp.com/">
-                            <Icon circular name='linkify' />
-                          </a>
-                          <a href="https://github.com/joyhuangg/stock_game_frontend">
-                            <Icon circular name='github' />
-                          </a>
-                  </Card.Content>
+                    <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/MarsPhoto.png' wrapped ui={false} />
+                    <div class="overlay2">
+                    <Card>
+                    <Card.Content>
+                      <Card.Header>Mars Photo App</Card.Header>
+                      <Card.Meta>
+                        <span className='date'>Created Jun 2019</span>
+                      </Card.Meta>
+                      <Card.Description>
+                        An app if input a sol and camera will give you all of the photo that rover curiosity took
+                      </Card.Description>
+                    </Card.Content>
+                    <Card.Content extra>
+                            <a href="https://mars-photo-frontend.herokuapp.com/">
+                              <Icon circular name='linkify' />
+                            </a>
+                            <a href="https://github.com/chanfe/mars-photo-search-frontend">
+                              <Icon circular name='github' />
+                            </a>
+                    </Card.Content>
+                    </Card>
+                    </div>
                   </Card>
-                  </div>
-                </Card>
-                </div>
-              </Grid.Column>
-              <Grid.Column width={5}>
-              <div class='container2'>
-                <Card>
-                  <Image src='https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/MarsPhoto.png' wrapped ui={false} />
-                  <div class="overlay2">
-                  <Card>
-                  <Card.Content>
-                    <Card.Header>Mars Photo App</Card.Header>
-                    <Card.Meta>
-                      <span className='date'>Created Jun 2019</span>
-                    </Card.Meta>
-                    <Card.Description>
-                      An app if input a sol and camera will give you all of the photo that rover curiosity took
-                    </Card.Description>
-                  </Card.Content>
-                  <Card.Content extra>
-                          <a href="https://mars-photo-frontend.herokuapp.com/">
-                            <Icon circular name='linkify' />
-                          </a>
-                          <a href="https://github.com/chanfe/mars-photo-search-frontend">
-                            <Icon circular name='github' />
-                          </a>
-                  </Card.Content>
-                  </Card>
-                  </div>
-                </Card>
                 </div>
               </Grid.Column>
             </Grid.Row>
