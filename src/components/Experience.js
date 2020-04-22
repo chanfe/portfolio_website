@@ -19,7 +19,7 @@ class Experience extends Component {
               </li>
             </ul>
           </p>
-          <h3>Full Stack Progressive, New York, NY, Aug 2019 – Present</h3>
+          <h3>Full Stack Progressive, New York, NY, Aug 2019 – Mar 2020</h3>
             <h4>Full Stack Web Developer Participate</h4>
             <p>
               <ul>
