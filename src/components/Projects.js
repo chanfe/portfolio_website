@@ -42,7 +42,7 @@ class Projects extends Component {
           github:'https://github.com/chanfe/mars-photo-search-frontend'
         },
         {
-          image_src:'',
+          image_src:'https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Art_React.png',
           title:'Art React',
           created:'Created Jul 2020',
           description:'React to a random art and see other people reaction to that same art.',
