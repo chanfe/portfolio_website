@@ -8,7 +8,7 @@ import Experience from '../components/Experience'
 import Skill from '../components/Skill'
 import Intrests from '../components/Intrests'
 import Contact from '../components/Contact'
-import Awards from '../components/Awards'
+// import Awards from '../components/Awards'
 import Projects from '../components/Projects'
 import NavBar from './NavBar'
 

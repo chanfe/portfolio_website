@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
 import Portfolio from './containers/Portfolio';
-import { Responsive, Button } from 'semantic-ui-react'
+import { Responsive } from 'semantic-ui-react'
 
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
