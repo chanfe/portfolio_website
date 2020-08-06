@@ -11,7 +11,7 @@ class Education extends Component {
           <h1>Education</h1>
           <h3>Boot Camp Graduate</h3>
           <p>
-            Flatiron School - Access Lab, Brooklyn, NY, Augest 2018 – November 2018
+            Flatiron School - Access Lab, Brooklyn, NY, August 2018 – November 2018
           </p>
           
           <h3>Student</h3>
@@ -21,7 +21,7 @@ class Education extends Component {
 
           <h3>Bachelor of Science in Computer Science</h3>
           <p>
-            Appalachian State University, Boone, NC, Augest 2012 - May 2016
+            Appalachian State University, Boone, NC, August 2012 - May 2016
           </p> 	 
         </Responsive>
         
@@ -34,7 +34,7 @@ class Education extends Component {
               <Grid.Column width={11}>
                 <h3>Boot Camp Graduate</h3>
                 <p>
-                  Flatiron School - Access Lab, Brooklyn, NY, Augest 2018 – November 2018
+                  Flatiron School - Access Lab, Brooklyn, NY, August 2018 – November 2018
                 </p>
                 <h3>Student</h3>
                 <p>
@@ -42,7 +42,7 @@ class Education extends Component {
                 </p>
                 <h3>Bachelor of Science in Computer Science</h3>
                 <p>
-                  Appalachian State University, Boone, NC, Augest 2012 - May 2016
+                  Appalachian State University, Boone, NC, August 2012 - May 2016
                 </p> 	      
               </Grid.Column>
             </Grid.Row>
