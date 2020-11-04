@@ -7,6 +7,7 @@
     "react": "^16.8.2",
     "react-actioncable-provider": "^1.0.3",
     "react-dom": "^16.8.2",
+    "react-helmet": "^6.1.0",
     "react-meta-tags": "^0.7.4",
     "react-redux": "^5.1.0",
     "react-router-dom": "^4.3.1",
