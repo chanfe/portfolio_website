@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.1",
     "react": "^16.8.2",
     "react-actioncable-provider": "^1.0.3",
     "react-dom": "^16.8.2",
+    "react-meta-tags": "^0.7.4",
     "react-redux": "^5.1.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^3.0.1",
