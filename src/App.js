@@ -27,10 +27,10 @@ class App extends Component {
 
           <Helmet>
             <title>Personal website</title>
-            <meta property="og:url" content="https://felixchan.netlify.com/" />
-            <meta property="og:title" content="Personal website" />
-            <meta property="og:description" content="Felix Chan personal website" />
-            <meta property="og:image" content="https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Media_image.png" />
+            <meta property="og:url" content="https://felixchan.netlify.com/" data-react-helmet="true" />
+            <meta property="og:title" content="Personal website" data-react-helmet="true" />
+            <meta property="og:description" content="Felix Chan personal website" data-react-helmet="true" />
+            <meta property="og:image" content="https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Media_image.png" data-react-helmet="true" />
           </Helmet> 
 
           <Responsive {...Responsive.onlyMobile}>
