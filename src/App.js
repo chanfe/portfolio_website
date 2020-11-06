@@ -13,17 +13,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        {/* <meta property='og:title' content="Felix Chan portfolio"/>
-        <meta property='og:image' content="./assets/typing.gif"/>
-        <meta property='og:description' content="This is my portfolio"/>
-        <meta property='og:url' content="https://felixchan.netlify.com/" /> */}
         <React.Fragment>
-
-          {/* <MetaTags>
-            <meta id="meta-description" name="description" content="Felix Chan personal website" />
-            <meta id="og-title" property="og:title" content="Personal website" />
-            <meta id="og-image" property="og:image" content="https://raw.githubusercontent.com/chanfe/portfolio_website/master/src/assets/Media_image.png" />
-          </MetaTags> */}
 
           <Helmet>
             <title>Personal website</title>
